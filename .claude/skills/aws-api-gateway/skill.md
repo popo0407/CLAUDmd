@@ -29,5 +29,5 @@ description: CloudFront + API Gateway + Lambda のサーバーレスバックエ
 4. **統合設定**: Lambda Proxy Integrationを構成し、呼び出し権限をソースARN指定で付与
 5. **WAF設定**: Web ACLを作成し、カスタムヘッダー検証ルールを追加、API Gatewayステージに紐付け
 6. **CloudFront**: オリジンにAPI Gatewayを指定し、カスタムヘッダーを設定
-7. **デプロイ・記録**: ステージ作成後、`AWS_RESOURCES.md` にリソースIDとエンドポイントを記録
+7. **デプロイ・記録**: ステージ作成後、`documents/AWS_RESOURCES.md` にリソースIDとエンドポイントを記録
 ---

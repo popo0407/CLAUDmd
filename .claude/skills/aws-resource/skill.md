@@ -18,13 +18,9 @@ AWSのリソース作成を行う際は、以下の手順を厳守せよ。
 - **タグ付け**: 全てのリソースに[プロジェクト名]のタグを付与する。
 
 ## 5. リソース情報の記録 (Documentation & Tracking)
-- **自動記録**: 作成完了直後、以下の情報を `AWS_RESOURCES.md`に追記せよ。
-    - リソースの種類と名前
-    - 物理ID（Arn, ID, URL等）
-    - 作成日時
-    - 関連する依存リソース
+- **自動記録**: 作成完了直後、`documents/AWS_RESOURCES.md`に追記せよ。
 - **確認**: 作成したリソースのステータスが `available` または `running` になっていることをCLIで確認し、その結果を報告せよ。
 
 # Execution Steps
 1. AWS CLI実行後、戻り値のJSONから重要データを抽出。
-2. `AWS_RESOURCES.md` を更新し、完了報告を行う。
+2. `documents/AWS_RESOURCES.md` を更新し、完了報告を行う。

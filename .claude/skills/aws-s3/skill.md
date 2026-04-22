@@ -24,4 +24,4 @@ S3バケットの作成・変更時は、以下の最新ベストプラクティ
 3. **ACL無効化**: `put-bucket-ownership-controls` で `ObjectOwnership=BucketOwnerEnforced` を設定。
 4. **暗号化・TLS設定**: `put-bucket-encryption` および `put-bucket-policy` を実行。
 5. **ライフサイクル適用**: `put-bucket-lifecycle-configuration` でコスト最適化を自動化。
-6. **記録**: `AWS_RESOURCES.md` にバケット名と用途を記録。
+6. **記録**: `documents/AWS_RESOURCES.md` にバケット名と用途を記録。

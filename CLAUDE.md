@@ -1,11 +1,11 @@
 ## プロジェクト情報
-- プロジェクト名：[プロジェクト名]
+- プロジェクト名：[CHISCHE]
 - 環境：[dev]
-- AWSプロファイル：[AWSプロファイル]
+- AWSプロファイル：[590184009554_AdministratorAccess]
 - AWS認証用コマンド：
 
 ## 技術スタック
-- フロントエンド：HTML / JavaScript / CSS
+- フロントエンド：未定、Reactなど
 - バックエンド：Python 3.13
 - 実行環境：Lambda
 - ファイルサーバー：S3
